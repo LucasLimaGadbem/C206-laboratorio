@@ -82,7 +82,7 @@ public class Locadora {
             return carrosParaAlugar;
         }
         else{
-            porcentagem = (carrosParaAlugar/total)*100;
+            porcentagem = ((float) carrosParaAlugar /total)*100;
             return porcentagem;
         }
     }
