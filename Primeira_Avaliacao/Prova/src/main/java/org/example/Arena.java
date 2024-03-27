@@ -88,6 +88,7 @@ public class Arena {
         String nomeMaior = "";
         float menor = 10;
         String nomeMenor = "";
+        int l = 0;
         //percorrendo rappers
         for (int i = 0; i < rappers.length; i++) {
             //verificando se tem algum rapper em i
@@ -102,13 +103,20 @@ public class Arena {
                     menor = rappers[i].nota;
                     nomeMenor = rappers[i].nome;
                 }
+                l = l + 1;
             }
         }
 
-        //mostrando rapper com maior nota
-        System.out.println("Nome do rapper com maior nota: "+nomeMaior);
-        //mostrando rapper com menor nota
-        System.out.println("Nome do rapper com menor nota: "+nomeMenor);
+        //caso nao tenha rappers cadastrados
+        if(l == 0){
+            System.out.println("Nenhum rapper cadastrado");
+        }
+        else {
+            //mostrando rapper com maior nota
+            System.out.println("Nome do rapper com maior nota: " + nomeMaior);
+            //mostrando rapper com menor nota
+            System.out.println("Nome do rapper com menor nota: " + nomeMenor);
+        }
 
     }
 }

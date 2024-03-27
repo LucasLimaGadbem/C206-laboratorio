@@ -38,7 +38,7 @@ public class Main {
                     System.out.println("Nome do Rapper: ");
                     sc.nextLine();
                     String nomeRapper = sc.nextLine();
-                    System.out.println("Nota do Rapper, de 1 a 10: ");
+                    System.out.println("Nota do Rapper, de 0 a 10: ");
                     boolean flagNota = true;
                     float notaRapper = 0;
                     //limitando a nota de 0 a 10
@@ -48,7 +48,7 @@ public class Main {
                             flagNota = false;
                         }
                         else{
-                            System.out.println("Nota de 1 a 10");
+                            System.out.println("Nota de 0 a 10");
                         }
                     }
                     System.out.println("Idade do Rapper: ");
