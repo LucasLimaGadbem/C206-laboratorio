@@ -5,7 +5,7 @@ public class Mago extends Habitante implements Cura,Feitico{
     private String cor;
 
     //construtor para mago
-    public Mago( String nome, int idade, float energia, String cor) {
+    public Mago(String nome, int idade, float energia, String cor) {
         super(nome, idade, energia);
         this.cor = cor;
     }
