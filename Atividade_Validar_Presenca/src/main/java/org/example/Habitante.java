@@ -15,6 +15,8 @@ public abstract class Habitante {
         this.nome = nome;
         this.idade = idade;
         this.energia = energia;
+        //utilizando o contador para contar o numero de habitantes
+        this.contador++;
     }
 
     //o habitante esta atacando
@@ -33,12 +35,16 @@ public abstract class Habitante {
 
     //mostrando informacoes dos Habitantes
     public void mostraInfo(){
-        //utilizando o contador para contar o numero de habitantes
-        this.contador++;
         System.out.println("Id: "+this.id);
         System.out.println("Nome: "+this.nome);
         System.out.println("Idade: "+this.idade);
         System.out.println("Energia: "+this.energia);
         System.out.println("Arma: "+this.arma.getNomeArma());
+        if(this.arma.getMagica()){
+            System.out.println("A arma é mágica");
+        }
+        else{
+            System.out.println("A arma não é mágica");
+        }
     }
 }

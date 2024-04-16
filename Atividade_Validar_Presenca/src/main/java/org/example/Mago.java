@@ -41,6 +41,6 @@ public class Mago extends Habitante implements Cura,Feitico{
         //tirando 10% de energia
         this.energia = this.energia - (this.energia*0.1F);
         //personalizando para mago
-        System.out.println("O mago lancou um feitico");
+        System.out.println("O mago lançou um feitiço");
     }
 }

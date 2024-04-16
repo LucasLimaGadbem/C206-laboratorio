@@ -17,7 +17,7 @@ public class Anao extends Habitante implements Mineracao{
     public void atacar() {
         super.atacar();
         //personalizando para anao
-        System.out.println("O anao atacou");
+        System.out.println("O anão atacou");
     }
 
     //sobrescrevendo mostraInfo
@@ -33,6 +33,6 @@ public class Anao extends Habitante implements Mineracao{
     @Override
     public void minerar() {
         //personalizando para minerar
-        System.out.println("O anao esta minerando");
+        System.out.println("O anão está minerando");
     }
 }

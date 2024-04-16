@@ -12,7 +12,7 @@ public class Elfo extends Habitante implements Cura{
 
     //o elfo vai viajar
     public void viajar(){
-        System.out.println("O elfo esta viajando");
+        System.out.println("O elfo está viajando");
     }
 
     //sobrescrevendo atacar
