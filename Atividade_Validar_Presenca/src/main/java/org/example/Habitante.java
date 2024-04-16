@@ -10,13 +10,14 @@ public abstract class Habitante {
     Arma arma = new Arma();
 
     //construtor de Habitante
-    public Habitante(int id, String nome, int idade, float energia) {
-        this.id = id;
+    public Habitante( String nome, int idade, float energia) {
         this.nome = nome;
         this.idade = idade;
         this.energia = energia;
-        //utilizando o contador para contar o numero de habitantes
-        this.contador++;
+        //igualando o id do habitante ao contador
+        this.id = contador;
+        //aumentando 1 no contador
+        contador++;
     }
 
     //o habitante esta atacando

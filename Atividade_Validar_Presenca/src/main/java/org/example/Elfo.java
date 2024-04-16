@@ -5,8 +5,8 @@ public class Elfo extends Habitante implements Cura{
     private String tribo;
 
     //contrutor de elfo
-    public Elfo(int id, String nome, int idade, float energia, String tribo) {
-        super(id, nome, idade, energia);
+    public Elfo( String nome, int idade, float energia, String tribo) {
+        super(nome, idade, energia);
         this.tribo = tribo;
     }
 

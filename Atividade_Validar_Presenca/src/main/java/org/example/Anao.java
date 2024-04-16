@@ -6,8 +6,8 @@ public class Anao extends Habitante implements Mineracao{
     private String reino;
 
     //construtor do Anao
-    public Anao(int id, String nome, int idade, float energia, float altura, String reino) {
-        super(id, nome, idade, energia);
+    public Anao(String nome, int idade, float energia, float altura, String reino) {
+        super(nome, idade, energia);
         this.altura = altura;
         this.reino = reino;
     }
