@@ -1,9 +1,9 @@
 ++ Produto ++
-pastel
+Pastel
 12.0
 Comida
 ++ Produto ++
-papel
+Papel
 8.0
 Higiene
 ++ Produto ++
