@@ -1,0 +1,12 @@
+++ Produto ++
+pastel
+12.0
+Comida
+++ Produto ++
+papel
+8.0
+Higiene
+++ Produto ++
+Lençol
+30.0
+Decoração
