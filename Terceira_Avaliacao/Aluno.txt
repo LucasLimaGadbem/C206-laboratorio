@@ -1,0 +1,15 @@
+++ Aluno ++
+Lucas
+1928
+Computacao
+75.0
+++ Aluno ++
+Ana Clara
+208
+Software
+88.0
+++ Aluno ++
+Murilo
+3015
+Telecomunicacoes
+74.0
